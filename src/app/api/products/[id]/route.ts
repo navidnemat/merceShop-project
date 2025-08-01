@@ -1,20 +1,42 @@
-import { NextRequest, NextResponse } from 'next/server';
-import db from '@/database/db.json';
+import { NextRequest, NextResponse } from 'next/server'
+
+const newArrivals = [
+    { id: '1', name: 'Phone' },
+    { id: '2', name: 'Watch' },
+]
 
 export async function GET(
-  request: NextRequest,
-  { params }: { params: { id: string } }
+    request: NextRequest,
+    { params }: { params: { id: string } } // اینجا تغییر اعمال می‌شود
 ) {
-  const { id } = params;
+    const { id } = params // id مستقیما از params استخراج می‌شود
 
-  const product = db.newArrivals.find(item => item.id === id);
+    const product = newArrivals.find(p => p.id === id)
 
-  if (!product) {
-    return NextResponse.json({ error: 'Product not found' }, { status: 404 });
-  }
+    if (!product) {
+        return NextResponse.json({ error: 'Product not found' }, { status: 404 })
+    }
 
-  return NextResponse.json(product);
+    return NextResponse.json(product)
 }
+
+// import { NextRequest, NextResponse } from 'next/server';
+// import db from '@/database/db.json';
+
+// export async function GET(
+//   request: NextRequest,
+//   { params }: { params: { id: string } }
+// ) {
+//   const { id } = params;
+
+//   const product = db.newArrivals.find(item => item.id === id);
+
+//   if (!product) {
+//     return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+//   }
+
+//   return NextResponse.json(product);
+// }
 
 // import { NextResponse } from 'next/server'
 // import db from '@/database/db.json'
