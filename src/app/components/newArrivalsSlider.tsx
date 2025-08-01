@@ -15,9 +15,10 @@ export default function NewArrivalsSlider() {
 
     const [data, setData] = useState<IProductItemProps[]>([])
 
+    //fetch(`http://localhost:8000/newArrivals`)
 
     useEffect(() => {
-        fetch(`http://localhost:8000/newArrivals`)
+        fetch(`http://localhost:3000/api/sliders`)
             .then((res) => res.json())
             .then((data) => {
                 console.log("Fetched data:", data);

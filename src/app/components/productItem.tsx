@@ -1,4 +1,3 @@
-import { span } from "framer-motion/client";
 import QuickAddToCart from "./quickAddToCart";
 import { fotmatNumberWithCommas } from "@/utils/number"
 

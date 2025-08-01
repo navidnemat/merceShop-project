@@ -16,8 +16,8 @@ interface IStoreProps {
 
 export default async function Home({ searchParams }: IStoreProps) {
 
-  const result = await fetch(`http://localhost:8000/newArrivals`)
-  const data = await result.json() as IProductItemProps[]
+  // const result = await fetch(`http://localhost:8000/newArrivals`)
+  // const data = await result.json() as IProductItemProps[]
 
   return (
     <div className="relative">

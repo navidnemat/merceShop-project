@@ -12,7 +12,9 @@ export default async function ProductPage({ params }: IProductProps) {
 
     const { id } = await params
 
-    const result = await fetch(`http://localhost:8000/newArrivals/${id}`)
+    //const result = await fetch(`http://localhost:8000/newArrivals/${id}`)
+
+    const result = await fetch(`http://localhost:3000/api/products/${id}`)
     const data = await result.json() as IProductItemProps
 
 

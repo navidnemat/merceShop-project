@@ -12,8 +12,12 @@ export default async function MainStore({ searchParams }: IStoreProps) {
     const page = (await searchParams).page ?? "1"
     const per_page = (await searchParams).per_page ?? "8"
 
-    const result = await fetch(`http://localhost:8000/newArrivals?_page=${page}&_per_page=${per_page}`)
+    //const result = await fetch(`http://localhost:8000/newArrivals?_page=${page}&_per_page=${per_page}`)
+
+    const result = await fetch(`http://localhost:3000/api/products?_page=${page}&_per_page=${per_page}`)
     const data = await result.json() as IProductList
+
+    console.log("data :" ,data)
 
     return (
         <div>
