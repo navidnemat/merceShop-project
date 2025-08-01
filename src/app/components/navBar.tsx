@@ -31,6 +31,7 @@ export default function NavBar() {
                                 <div className="flex items-center justify-end gap-4">
                                     <Link href={""} className="flex items-center gap-2 relative cursor-pointer rounded-full lg:p-2 p-1 border border-slate-200 ease-out transition-all duration-200 ">
                                         <CiSearch className="text-2xl text-gray-700" />
+                                        سلام
                                     </Link>
 
                                     <Link href={"/cartpage"} className="flex items-center gap-2 relative cursor-pointer rounded-full lg:p-2 p-1 border border-slate-200 ease-out transition-all duration-200 ">
