@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server'
+import { NextResponse } from 'next/server'
 
 const newArrivals = [
   { id: '1', name: 'Phone' },
@@ -6,7 +6,7 @@ const newArrivals = [
 ]
 
 export async function GET(
-  request: NextRequest,
+  request: Request,
   { params }: { params: { id: string } }
 ) {
   const { id } = params
