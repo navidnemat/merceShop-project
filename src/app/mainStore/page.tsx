@@ -14,7 +14,7 @@ export default async function MainStore({ searchParams }: IStoreProps) {
 
     //const result = await fetch(`http://localhost:8000/newArrivals?_page=${page}&_per_page=${per_page}`)
 
-    const result = await fetch(`http://localhost:3000/api/products?_page=${page}&_per_page=${per_page}`)
+    const result = await fetch(`/api/products?_page=${page}&_per_page=${per_page}`)
     const data = await result.json() as IProductList
 
     console.log("data :" ,data)
