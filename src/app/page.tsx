@@ -21,7 +21,7 @@ export default async function Home({ searchParams }: IStoreProps) {
 
   return (
     <div className="relative">
-      <div className="absolute top-[-80px] left-[10%] w-[250px] h-[250px] bg-pink-400 rounded-full blur-3xl opacity-50"></div>
+      <div className="absolute top-[-80px] left-[10%] w-[250px] h-[250px] bg-pink-300 rounded-full blur-3xl opacity-50"></div>
       <div className="absolute top-[20%] right-[20%] w-[200px] h-[200px] bg-blue-400 rounded-full blur-2xl opacity-50"></div>
       <div className="absolute top-[60%] left-[25%] w-[220px] h-[220px] bg-purple-400 rounded-full blur-2xl opacity-40"></div>
       <div className="absolute bottom-[-100px] right-[15%] w-[280px] h-[280px] bg-yellow-300 rounded-full blur-3xl opacity-40 -z-1"></div>
@@ -275,6 +275,7 @@ export default async function Home({ searchParams }: IStoreProps) {
       </section>
 
       <NewArrivals />
+
       <section className="overflow-hidden py-20">
         <div className="max-w-[1676px] w-full mx-auto px-4 sm:px-6 xl:px-4">
           <div className="relative overflow-hidden rounded-xl py-12 lg:py-17 xl:py-22 px-4 sm:px-7 lg:px-14 xl:px-19 mb-7 lg:min-h-[300px] bg-white/70 backdrop-blur-md border border-white/40 shadow-lg hover:[&_img]:scale-105 ">

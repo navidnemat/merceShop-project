@@ -45,7 +45,7 @@ export default function Sidebar({ isOpen, onClose }: Props) {
 
                         <ul className="p-6 space-y-2 flex-1">
                             <li className='flex ease-out duration-200 hover:text-[#3c50e0] hover:bg-[#3c50e0]/7 p-2 rounded-md'><Link href={'/'} className='w-full text-right'>خانه</Link></li>
-                                                        <li className='flex ease-out duration-200 hover:text-[#3c50e0] hover:bg-[#3c50e0]/7 p-2 rounded-md'><Link href={'/cartpage'} className='w-full text-right'>سبد خرید</Link></li>
+                            <li className='flex ease-out duration-200 hover:text-[#3c50e0] hover:bg-[#3c50e0]/7 p-2 rounded-md'><Link href={'/cartpage'} className='w-full text-right'>سبد خرید</Link></li>
                             <li className='flex ease-out duration-200 hover:text-[#3c50e0] hover:bg-[#3c50e0]/7 p-2 rounded-md'><Link href={''} className='w-full text-right'>محبوب</Link></li>
                             <li className='flex ease-out duration-200 hover:text-[#3c50e0] hover:bg-[#3c50e0]/7 p-2 rounded-md'><Link href={'/mainStore'} className='w-full text-right'>فروشگاه</Link></li>
                             <li className='flex ease-out duration-200 hover:text-[#3c50e0] hover:bg-[#3c50e0]/7 p-2 rounded-md'><Link href={''} className='w-full text-right'>تماس با ما</Link></li>
