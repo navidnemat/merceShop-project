@@ -5,17 +5,11 @@ const newArrivals = [
   { id: '2', name: 'Watch' },
 ]
 
-type Params = {
-  params: {
-    id: string
-  }
-}
-
 export async function GET(
   request: NextRequest,
-  context: Params
+  { params }: { params: { id: string } }
 ) {
-  const { id } = context.params
+  const { id } = params
 
   const product = newArrivals.find(p => p.id === id)
 
