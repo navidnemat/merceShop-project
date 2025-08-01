@@ -18,7 +18,7 @@ export default function NewArrivalsSlider() {
     //fetch(`http://localhost:8000/newArrivals`)
 
     useEffect(() => {
-        fetch(`/api/sliders`)
+        fetch(`http://localhost:3000/api/sliders`)
             .then((res) => res.json())
             .then((data) => {
                 console.log("Fetched data:", data);
