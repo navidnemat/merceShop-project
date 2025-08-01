@@ -3,26 +3,58 @@ import db from '@/database/db.json';
 import type { NextApiRequest } from 'next';
 
 // ✅ این رو از next/server نگیری، خودش auto هست:
-interface Context {
-  params: {
+
+interface Params {
     id: string;
-  };
+}
+
+// Define the type for the context object
+interface RouteContext {
+    params: Params;
 }
 
 export async function GET(
-  request: NextRequest,
-  context: Context
+    request: NextRequest,
+    context: RouteContext
 ) {
-  const { id } = context.params;
+    const { id } = context.params;
 
-  const product = db.newArrivals.find(item => item.id === id);
+    // const product = db.newArrivals.find(item => item.id === id);
 
-  if (!product) {
-    return NextResponse.json({ error: 'Product not found' }, { status: 404 });
-  }
+    // if (!product) {
+    //     return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+    // }
 
-  return NextResponse.json(product);
+    // return NextResponse.json(product);
+
+    return NextResponse.json({ message: `Fetching item ${id}` });
 }
+
+// import { NextRequest, NextResponse } from 'next/server';
+// import db from '@/database/db.json';
+// import type { NextApiRequest } from 'next';
+
+// // ✅ این رو از next/server نگیری، خودش auto هست:
+// interface Context {
+//   params: {
+//     id: string;
+//   };
+// }
+
+// export async function GET(
+//   request: NextRequest,
+//   context: Context
+// ) {
+//   const { id } = context.params;
+
+//   const product = db.newArrivals.find(item => item.id === id);
+
+//   if (!product) {
+//     return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+//   }
+
+//   return NextResponse.json(product);
+// }
 
 // import { NextRequest, NextResponse } from 'next/server';
 // import db from '@/database/db.json';
