@@ -15,8 +15,10 @@ export default function CartItem({ id, qty }: ICartItemsProps) {
 
     const [data, setData] = useState({} as IProductItemProps)
 
+    //http://localhost:8000/newArrivals
+
     useEffect(() => {
-        axios(`http://localhost:8000/newArrivals/${id}`).then(result => {
+        axios(`https://json-server-database-j5um.onrender.com/newArrivals/${id}`).then(result => {
             const { data } = result
             setData(data)
         })

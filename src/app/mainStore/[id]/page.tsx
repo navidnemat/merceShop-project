@@ -14,7 +14,7 @@ export default async function ProductPage({ params }: IProductProps) {
 
     const { id } = await params
 
-    const result = await fetch(`http://localhost:3000/api/products/${id}`)
+    const result = await fetch(`https://json-server-database-j5um.onrender.com/newArrivals/${id}`)
     const data = await result.json() as IProductItemProps
 
     //const result = await fetch(`/api/products/${id}`)

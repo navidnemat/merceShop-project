@@ -36,16 +36,20 @@ export default function Cart() {
         return total + (selectedProduct?.price || 0) * item.qty
     }, 0) ?? 0
 
+    //http://localhost:8000/newArrivals
+
     useEffect(() => {
-        axios(`http://localhost:8000/newArrivals`).then(result => {
+        axios(`https://json-server-database-j5um.onrender.com/newArrivals`).then(result => {
             const { data } = result
             setData(data)
         })
     }, []
     )
 
+    //`http://localhost:8000/discounts?code=${discountcode}`
+
     const handleSubmitDiscount = () => {
-        axios(`http://localhost:8000/discounts?code=${discountcode}`).then((result) => {
+        axios(`https://json-server-database-j5um.onrender.com/discounts?code=${discountcode}`).then((result) => {
             const data = result.data as IDiscountData[]
 
             let discountedPrice = totalPrice * data[0].percentage / 100

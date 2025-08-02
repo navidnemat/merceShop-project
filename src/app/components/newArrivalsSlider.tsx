@@ -16,9 +16,10 @@ export default function NewArrivalsSlider() {
     const [data, setData] = useState<IProductItemProps[]>([])
 
     //fetch(`http://localhost:8000/newArrivals`)
+    // fetch(`http://localhost:3000/api/sliders`)
 
     useEffect(() => {
-        fetch(`http://localhost:3000/api/sliders`)
+        fetch(`https://json-server-database-j5um.onrender.com/newArrivals`)
             .then((res) => res.json())
             .then((data) => {
                 console.log("Fetched data:", data);

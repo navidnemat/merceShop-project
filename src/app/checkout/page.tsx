@@ -32,8 +32,10 @@ export default function Checkout() {
         return total + (selectedProduct?.price || 0) * item.qty
     }, 0) ?? 0
 
+    //http://localhost:8000/newArrivals
+
     useEffect(() => {
-        axios(`http://localhost:8000/newArrivals`).then(result => {
+        axios(`https://json-server-database-j5um.onrender.com/newArrivals`).then(result => {
             const { data } = result
             setData(data)
         })
