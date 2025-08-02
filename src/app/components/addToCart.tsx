@@ -8,10 +8,9 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 interface IAddToCartProps {
     id: string
     addToCartOnOff: boolean
-    avalabale: boolean
 }
 
-export default function AddToCart({ id, addToCartOnOff, avalabale }: IAddToCartProps) {
+export default function AddToCart({ id, addToCartOnOff }: IAddToCartProps) {
 
     const [isClick, setIsClick] = useState(false)
 
