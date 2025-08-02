@@ -39,8 +39,8 @@ const CountdownTimer: React.FC<CountdownProps> = ({ targetDate }) => {
 
     const timeBox = (value: number, label?: string) => (
         <div className='flex flex-col items-center gap-3'>
-            <div className="flex flex-col items-center bg-white text-slate-800 p-5 rounded-2xl shadow-md w-20">
-                <div className="text-3xl font-bold text-gray-700">{value.toString().padStart(2, '0')}</div>
+            <div className="flex flex-col items-center bg-white text-slate-800 p-3.5 md:p-5 rounded-2xl shadow-md w-16 md:w-20">
+                <div className="md:text-3xl text-2xl font-bold text-gray-700">{value.toString().padStart(2, '0')}</div>
                 
             </div>
             <div className="text-sm uppercase">{label}</div>

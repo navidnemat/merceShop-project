@@ -28,8 +28,8 @@ export interface IProductList {
 export default function ProductItem({ image, title, price, discountedPrice, id, discounted, rate, available }: IProductItemProps) {
 
     return (
-        <div className="group transition-all duration-200 ease-out hover:scale-105 relative z-10 my-10">
-            <div className="relative overflow-hidden rounded-lg lg:min-h-[350px] bg-white/50 backdrop-blur-md border border-white/40 shadow-lg p-4">
+        <div className="group transition-all duration-200 ease-out hover:scale-105 relative z-10 my-10 md:mx-0 mx-2">
+            <div className="relative overflow-hidden rounded-xl lg:min-h-[350px] min-h-[380px] bg-white/50 backdrop-blur-md border border-white/40 shadow-lg p-4">
 
                 {discounted ? <span className="absolute top-2 right-2 bg-pink-500 text-white text-xs px-2 py-1 rounded-full shadow-md">
                     تخفیف ویژه%
@@ -37,7 +37,7 @@ export default function ProductItem({ image, title, price, discountedPrice, id, 
                     جدید
                 </span>}
 
-                <div className="flex flex-col items-center justify-between lg:min-h-[350px]">
+                <div className="flex flex-col items-center justify-between h-[330px]">
                     <div className="max-w-[190px] rounded-xl overflow-hidden  flex items-center justify-center">
                         <img src={image} className="w-full" alt="محصول" width={280} height={280} />
                     </div>

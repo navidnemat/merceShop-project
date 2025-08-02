@@ -28,9 +28,9 @@ export default function mainSlider() {
                 >
                     <SwiperSlide>
                         <div className='xl:w-[853px] relative '>
-                            <div className='relative flex flex-col lg:flex-row-reverse items-center justify-center'>
+                            <div className='relative flex flex-col-reverse lg:flex-row-reverse items-center justify-center md:pt-0 pt-5'>
 
-                                <div className='flex flex-col gap-4 max-w-[366px] p-5'>
+                                <div className='flex flex-col gap-4 max-w-[366px] p-5 mb-5 md:mb-0'>
                                     <div className='flex items-center gap-6 mb-4'>
                                         <span className='text-slate-800 text-lg lg:text-2xl'>تعادل هوشمند</span>
                                     </div>
@@ -46,7 +46,7 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/iphone16blue.png" className=' max-h-[545px] size-6/12' width={350} height={800} />
+                                <img src="/new/iphone16blue.png" className=' max-h-[545px] size-7/12 md:size-6/12' width={350} height={800} />
                             </div>
 
 
@@ -54,9 +54,9 @@ export default function mainSlider() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='xl:w-[853px] relative '>
-                            <div className='relative flex flex-col lg:flex-row-reverse items-center justify-center'>
+                            <div className='relative flex flex-col-reverse lg:flex-row-reverse items-center justify-center pt-5'>
 
-                                <div className='flex flex-col gap-4 max-w-[366px] p-5'>
+                                <div className='flex flex-col gap-4 max-w-[366px] mb-5 md:mb-0 p-5'>
                                     <div className='flex items-center gap-6 mb-4'>
                                         <span className='text-slate-800 text-lg lg:text-2xl'>قدرت بی رقیب</span>
                                     </div>
@@ -72,7 +72,7 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/s25Banner.png" className=' max-h-[545px] size-5/12' width={500} height={900} />
+                                <img src="/new/s25Banner.png" className=' max-h-[545px] size-7/12 md:size-5/12' width={500} height={900} />
                             </div>
 
 
@@ -80,9 +80,9 @@ export default function mainSlider() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='xl:w-[853px] relative '>
-                            <div className='relative flex flex-col lg:flex-row-reverse items-center justify-center'>
+                            <div className='relative flex flex-col-reverse lg:flex-row-reverse items-center justify-center pt-5'>
 
-                                <div className='flex flex-col gap-4 max-w-[366px] p-5'>
+                                <div className='flex flex-col gap-4 max-w-[366px] mb-5 md:mb-0 p-5'>
                                     <div className='flex items-center gap-6 mb-4'>
                                         <span className='text-slate-800 text-lg lg:text-2xl'>نسخه ویژه</span>
                                     </div>
@@ -98,7 +98,7 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/headphoneBanner.png" className=' max-h-[545px] size-7/12' width={500} height={900} />
+                                <img src="/new/headphoneBanner.png" className=' max-h-[545px] size-8/12 md:size-7/12' width={500} height={900} />
                             </div>
 
 

@@ -32,9 +32,14 @@ export default async function Home({ searchParams }: IStoreProps) {
       <section className="overflow-hidden py-5 lg:py-10">
         <div className="max-w-[1676px] mx-auto w-full xl:px-4 px-4">
           <div className="flex flex-col lg:flex-row items-center justify-between">
-            <div className="lg:w-1/2 flex flex-col items-start w-full px-5">
-              <p className="lg:text-4xl w-full text-3xl z-10 font-bold leading-relaxed bg-gradient-to-l from-[#3c50e0] to-[#9e6eff] bg-clip-text text-transparent">جدیدترین تکنولوژی دنیا <br /> با بهترین قیمت و تضمین اصالت <br /> فروشگاهی که دیجیتال بودن رو معنی میکنه</p>
-              <Link href={'/mainStore'} className="inline mt-7 px-6 py-2.5 bg-[#3c50e0] hover:bg-[#4d5df5] transition-all text-white rounded-xl ease-out duration-200 hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer">
+            <div className="lg:w-1/2 flex flex-col items-start w-full px-6 md:px-10 py-10">
+              <p className="lg:text-5xl text-4xl font-extrabold leading-snug bg-gradient-to-l from-[#3c50e0] to-[#9e6eff] bg-clip-text text-transparent max-w-[340px] md:max-w-full drop-shadow-md">
+                جدیدترین تکنولوژی دنیا <br /> با بهترین قیمت و تضمین اصالت
+              </p>
+              <p className="lg:text-2xl text-xl font-semibold text-[#3c50e0] max-w-[360px] mt-6">
+                فروشگاهی که دیجیتال بودن رو معنی می‌کنه
+              </p>
+              <Link href={'/mainStore'} className="mt-8 px-8 py-3 bg-[#3c50e0] hover:bg-[#4d5df5] transition transform hover:scale-105 text-white rounded-xl shadow-md hover:shadow-[0_0_15px_#3c50e0] font-semibold ease-out duration-300 cursor-pointer select-none">
                 ورود به دنیای تکنولوژی
               </Link>
             </div>
@@ -281,7 +286,7 @@ export default async function Home({ searchParams }: IStoreProps) {
           <div className="relative overflow-hidden rounded-xl py-12 lg:py-17 xl:py-22 px-4 sm:px-7 lg:px-14 xl:px-19 mb-7 lg:min-h-[300px] bg-white/70 backdrop-blur-md border border-white/40 shadow-lg hover:[&_img]:scale-105 ">
             <div className="max-w-[550px] w-full flex flex-col">
               <span className="text-2xl mb-5 text-slate-800">Xiaomi 15</span>
-              <h2 className="font-bold text-5xl mb-5 text-slate-800">تا <span className="text-[#3c50e0]">30%</span> تخفیف</h2>
+              <h2 className="font-bold text-4xl md:text-5xl mb-5 text-slate-800">تا <span className="text-[#3c50e0]">30%</span> تخفیف</h2>
               <p className="text-slate-800 mb-6">
                 شیائومی 15 با طراحی ظاهری مدرن و مینیمالیستی عرضه می‌شود با نمایشگر 6.36 اینچی AMOLED می باشد  بهره می‌برد و دارای ماژول دوربین شامل سه سنسور 50 مگاپیکسلی
               </p>
@@ -326,10 +331,10 @@ export default async function Home({ searchParams }: IStoreProps) {
       <div>
         <section className="overflow-hidden py-20">
           <div className="max-w-[1676px] w-full mx-auto px-4 sm:px-6 xl:px-4">
-            <div className="relative overflow-hidden rounded-lg bg-[#a6e1f8]/70 p-4 lg:p-10 flex flex-col md:flex-row items-center backdrop-blur-md border border-white/40 shadow-lg gap-10">
+            <div className="relative overflow-hidden rounded-lg bg-[#a6e1f8]/70 p-6 lg:p-10 flex flex-col md:flex-row items-center backdrop-blur-md border border-white/40 shadow-lg gap-10">
               <div className="max-w-[600px] w-full">
                 <span className="block mb-4.5 text-[#3c50e0] text-xl">فرصت داره تموم میشه !!</span>
-                <h2 className="block font-bold text-4xl text-slate-800 mb-4">"صدایی فراتر از انتظار، هدفون‌هایی که تجربه‌ی شنیداری شما را متحول می‌کنند"</h2>
+                <h2 className="block font-bold text-2xl md:text-4xl text-slate-800 mb-4">"صدایی فراتر از انتظار، هدفون‌هایی که تجربه‌ی شنیداری شما را متحول می‌کنند"</h2>
                 <CountdownTimer targetDate="2025-08-08T23:59:59" />
                 <button className="mt-3 px-6 py-2 rounded-full bg-[#3c50e0] text-white backdrop-blur-md border border-white/30 shadow-md ease-out transition-all duration-200  hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer">جزئیات بیشتر</button>
               </div>
@@ -376,7 +381,7 @@ export default async function Home({ searchParams }: IStoreProps) {
             {/* محتوا */}
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 px-4 sm:px-7 xl:pe-12 xl:ps-14 py-12 relative z-10">
               <div className="max-w-[520px] w-full">
-                <h2 className="text-white font-bold text-3xl mb-3 leading-relaxed">
+                <h2 className="text-white font-bold text-2xl md:text-3xl mb-3 leading-relaxed">
                   اولین نفری باشید که از تخفیف ها و پیشنهاد های ویژه با خبر میشه
                 </h2>
                 <p className="text-white/80 text-sm">
@@ -413,3 +418,13 @@ export default async function Home({ searchParams }: IStoreProps) {
 }
 
 // npx json-server --watch shop/src/database/db.json --port 8000
+
+{/* <div className="lg:w-1/2 flex flex-col items-start w-full px-5">
+  <p className="lg:text-4xl w-full text-3xl z-10 font-bold leading-relaxed bg-gradient-to-l from-[#3c50e0] to-[#9e6eff] bg-clip-text text-transparent max-w-[290px] md:max-w-full">جدیدترین تکنولوژی دنیا <br /> با بهترین قیمت و تضمین اصالت</p>
+  <p className="lg:text-xl w-full text-xl z-10 font-bold leading-relaxed text-[#3c50e0] max-w-[350px] mt-5">فروشگاهیی که دیجیتال بودن رو معنی می کنه</p>
+  <Link href={'/mainStore'} className="inline mt-7 px-6 py-2.5 bg-[#3c50e0] hover:bg-[#4d5df5] transition-all text-white rounded-xl ease-out duration-200 hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer">
+    ورود به دنیای تکنولوژی
+  </Link>
+</div> */}
+
+//bg-gradient-to-br from-white/60 via-white/30 to-transparent rounded-2xl shadow-lg backdrop-blur-md
