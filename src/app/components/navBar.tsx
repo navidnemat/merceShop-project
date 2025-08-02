@@ -20,15 +20,15 @@ export default function NavBar() {
                 <div className="">
                     <div className="container flex grow w-full mx-auto max-w-[1676px] xl:px-5 px-4 ">
                         <div className="w-full flex flex-col lg:py-3 py-2 ">
-                            <div className="grid items-center grid-cols-2 md:grid-cols-[1fr_2fr_1fr] justify-between gap-4">
-                                <button onClick={() => setIsOpen(!isOpen)} className="block md:hidden cursor-pointer relative text-gray-600">
+                            <div className="grid items-center grid-cols-2 lg:grid-cols-[1fr_2fr_1fr] justify-between gap-4">
+                                <button onClick={() => setIsOpen(!isOpen)} className="block lg:hidden cursor-pointer relative text-gray-600">
                                     <FiMenu size={24} />
                                     {/* <Sidebar isOpen={isOpen} onClose={() => setIsOpen(false)} /> */}
                                 </button>
-                                <a className="shrink-0 hidden md:flex">
+                                <a className="shrink-0 hidden lg:flex">
                                     <img className="text-transparent" src="/images/logo.svg" width={199} height={16} />
                                 </a>
-                                <div className="hidden md:flex items-center justify-center h-full gap-6">
+                                <div className="hidden lg:flex items-center justify-center h-full gap-6">
                                     <Link className="leading-4 hover:text-[#3c50e0] text-[17px] h-full gap-6 relative transition-all duration-200 before:w-0 before:absolute before:right-0 before:h-[3px] before:bottom-0 before:bg-[#3c50e0] before:rounded-b-[3px] before:ease-out before:duration-200 hover:before:w-full flex items-center" href={'/'}><span>خانه</span></Link>
                                     <Link className="leading-4 hover:text-[#3c50e0] text-[17px] h-full gap-6 relative transition-all duration-200 before:w-0 before:absolute before:right-0 before:h-[3px] before:bottom-0 before:bg-[#3c50e0] before:rounded-b-[3px] before:ease-out before:duration-200 hover:before:w-full flex items-center" href={'/cartpage'}><span>سبد خرید</span></Link>
                                     <Link className="leading-4 hover:text-[#3c50e0] text-[17px] h-full gap-6 relative transition-all duration-200 before:w-0 before:absolute before:right-0 before:h-[3px] before:bottom-0 before:bg-[#3c50e0] before:rounded-b-[3px] before:ease-out before:duration-200 hover:before:w-full flex items-center" href={'/'}><span>محبوب</span></Link>
@@ -47,7 +47,7 @@ export default function NavBar() {
                                             {cartTotalQty}
                                         </span>
                                     </Link>
-                                    <button className="px-6 py-2 rounded-full bg-[#3c50e0] hover:bg-[#4d5df5] text-white backdrop-blur-md border border-white/30 shadow-md ease-out transition-all duration-200  hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer lg:text-[1rem] text-sm hidden md:inline">
+                                    <button className="px-6 py-2 whitespace-nowrap rounded-full bg-[#3c50e0] hover:bg-[#4d5df5] text-white backdrop-blur-md border border-white/30 shadow-md ease-out transition-all duration-200  hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer lg:text-[1rem] text-sm hidden lg:inline">
                                         ورود / ثبت‌نام
                                     </button>
                                 </div>

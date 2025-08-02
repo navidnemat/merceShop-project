@@ -23,7 +23,7 @@ export default function AddToCart({ id, addToCartOnOff }: IAddToCartProps) {
     } = useShopingCartContext()
 
     return (
-        <div className={`flex flex-wrap items-center gap-4 justify-end ${addToCartOnOff && 'border-t-1 pt-8 justify-start'} border-slate-200`}>
+        <div className={`flex flex-nowrap items-center gap-4 justify-end ${addToCartOnOff && 'border-t-1 pt-8 justify-start'} border-slate-200`}>
             
             <div className="flex items-center rounded-full border-1 border-slate-200 bg-white">
                 <button onClick={() => handleDecreaseProductQty(parseInt(id))} className="flex items-center justify-center w-12 h-12 duration-200 ease-out hover:text-[#3c50e0] cursor-pointer">
