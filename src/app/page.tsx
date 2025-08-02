@@ -44,7 +44,7 @@ export default async function Home({ searchParams }: IStoreProps) {
               </Link>
             </div>
             <div className="lg:w-1/2 w-full flex items-center justify-center lg:mt-0 mt-10">
-              <img src="/new/phoneBanner3.png" className="float-slow" width={440} height={440} />
+              <img src="/new/phoneBanner3.webp" className="float-slow" width={440} height={440} />
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default async function Home({ searchParams }: IStoreProps) {
 
                   <div className="relative max-w-[180px] w-full">
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-[#3c50e0]/20 rounded-full blur-2xl z-0" />
-                    <img src="/new/s25.png" width={200} height={200} className="relative z-10" />
+                    <img src="/new/s25.webp" width={200} height={200} className="relative z-10" />
                   </div>
                 </div>
               </div>
@@ -173,7 +173,7 @@ export default async function Home({ searchParams }: IStoreProps) {
                   </button>
                 </div>
                 <div className="h-[190px] flex items-center justify-center flex-col">
-                  <img src="/new/macbook.png" alt="Phone" className="w-[220px] self-end" />
+                  <img src="/new/macbook.webp" alt="Phone" className="w-[220px] self-end" />
                 </div>
 
               </div>
@@ -195,7 +195,7 @@ export default async function Home({ searchParams }: IStoreProps) {
                   </button>
                 </div>
                 <div className="h-[190px] flex items-center justify-center flex-col">
-                  <img src="/new/i15.png" alt="Phone" className="w-[100px] self-end" />
+                  <img src="/new/i15.webp" alt="Phone" className="w-[100px] self-end" />
                 </div>
 
               </div>
@@ -221,7 +221,7 @@ export default async function Home({ searchParams }: IStoreProps) {
                   </button>
                 </div>
                 <div className="h-[190px] flex items-center justify-center flex-col">
-                  <img src="/new/head2.png" alt="Phone" className="w-[210px] self-end" />
+                  <img src="/new/head2.webp" alt="Phone" className="w-[210px] self-end" />
                 </div>
 
               </div>
@@ -243,7 +243,7 @@ export default async function Home({ searchParams }: IStoreProps) {
                   </button>
                 </div>
                 <div className="h-[190px] flex items-center justify-center flex-col">
-                  <img src="/new/watch.png" alt="Phone" className="w-[150px] self-end" />
+                  <img src="/new/watch.webp" alt="Phone" className="w-[150px] self-end" />
                 </div>
 
               </div>
@@ -266,7 +266,7 @@ export default async function Home({ searchParams }: IStoreProps) {
                   </button>
                 </div>
                 <div className="h-[190px] flex items-center justify-center flex-col">
-                  <img src="/new/nintendo.png" alt="Phone" className="w-[380px] self-end" />
+                  <img src="/new/nintendo.webp" alt="Phone" className="w-[380px] self-end" />
                 </div>
 
               </div>

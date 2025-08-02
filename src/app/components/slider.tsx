@@ -46,10 +46,8 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/iphone16blue.png" className=' max-h-[545px] size-7/12 md:size-6/12' width={350} height={800} />
+                                <img src="/new/iphone16blue.webp" className=' max-h-[545px] size-7/12 md:size-6/12' width={350} height={800} />
                             </div>
-
-
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -72,7 +70,7 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/s25Banner.png" className=' max-h-[545px] size-7/12 md:size-5/12' width={500} height={900} />
+                                <img src="/new/s25Banner.webp" className=' max-h-[545px] size-7/12 md:size-5/12' width={500} height={900} />
                             </div>
 
 
@@ -98,7 +96,7 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/headphoneBanner.png" className=' max-h-[545px] size-8/12 md:size-7/12' width={500} height={900} />
+                                <img src="/new/headphoneBanner.webp" className=' max-h-[545px] size-8/12 md:size-7/12' width={500} height={900} />
                             </div>
 
 
