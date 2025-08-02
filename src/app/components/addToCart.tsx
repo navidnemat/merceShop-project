@@ -8,9 +8,10 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 interface IAddToCartProps {
     id: string
     addToCartOnOff: boolean
+    avalabale: boolean
 }
 
-export default function AddToCart({ id, addToCartOnOff }: IAddToCartProps) {
+export default function AddToCart({ id, addToCartOnOff, avalabale }: IAddToCartProps) {
 
     const [isClick, setIsClick] = useState(false)
 
@@ -24,6 +25,7 @@ export default function AddToCart({ id, addToCartOnOff }: IAddToCartProps) {
 
     return (
         <div className={`flex flex-wrap items-center gap-4 justify-end ${addToCartOnOff && 'border-t-1 pt-8 justify-start'} border-slate-200`}>
+            
             <div className="flex items-center rounded-full border-1 border-slate-200 bg-white">
                 <button onClick={() => handleDecreaseProductQty(parseInt(id))} className="flex items-center justify-center w-12 h-12 duration-200 ease-out hover:text-[#3c50e0] cursor-pointer">
                     <svg width="16" height="2" viewBox="0 0 16 2" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M-8.548e-08 0.977778C-3.82707e-08 0.437766 0.437766 3.82707e-08 0.977778 8.548e-08L15.0222 1.31328e-06C15.5622 1.36049e-06 16 0.437767 16 0.977779C16 1.51779 15.5622 1.95556 15.0222 1.95556L0.977778 1.95556C0.437766 1.95556 -1.32689e-07 1.51779 -8.548e-08 0.977778Z" fill=""></path></svg>
@@ -36,7 +38,7 @@ export default function AddToCart({ id, addToCartOnOff }: IAddToCartProps) {
                 </button>
             </div>
             {addToCartOnOff && (
-
+                    
                 <div className="flex flex-wrap items-center gap-4">
                     <button onClick={() => handleAddToCart(parseInt(id))} className="inline-flex text-white rounded-full bg-[#3c50e0] cursor-pointer ease-out duration-200 hover:opacity-85 py-3 px-7 active:scale-90">
                         افزودن به سبد خرید
