@@ -29,16 +29,16 @@ export default function mainSlider() {
                     <SwiperSlide>
                         <div className='xl:w-[853px] relative '>
                             <div className='relative flex flex-col lg:flex-row-reverse items-center justify-center'>
-                                
+
                                 <div className='flex flex-col gap-4 max-w-[366px] p-5'>
                                     <div className='flex items-center gap-6 mb-4'>
-                                        <span className='text-slate-800 text-lg lg:text-2xl'>نسخه محدود</span>
+                                        <span className='text-slate-800 text-lg lg:text-2xl'>تعادل هوشمند</span>
                                     </div>
                                     <h1 className='font-bold text-xl lg:text-4xl text-slate-800'>
-                                        <a href="">آیفون ۱۶ پرو مکس</a>
+                                        <a href="">آیفون ۱۶</a>
                                     </h1>
                                     <div>
-                                        <p className=' blockk text-slate-800 mt-5'>با تراشه A18، شیشه مایع و نوآوری مبتنی بر هوش مصنوعی</p>
+                                        <p className=' blockk text-slate-800 mt-5'>طراحی کلاسیک اپل، قدرت A17، دوربین دوگانه و هماهنگ با ios 18</p>
                                     </div>
 
                                     <div className='mt-4'>
@@ -46,7 +46,7 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/iphone16Banner.png" className=' max-h-[545px] size-6/12' width={500} height={900} />
+                                <img src="/new/iphone16blue.png" className=' max-h-[545px] size-6/12' width={350} height={800} />
                             </div>
 
 
@@ -55,16 +55,16 @@ export default function mainSlider() {
                     <SwiperSlide>
                         <div className='xl:w-[853px] relative '>
                             <div className='relative flex flex-col lg:flex-row-reverse items-center justify-center'>
-                                
+
                                 <div className='flex flex-col gap-4 max-w-[366px] p-5'>
                                     <div className='flex items-center gap-6 mb-4'>
-                                        <span className='text-slate-800 text-lg lg:text-2xl'>نسخه محدود</span>
+                                        <span className='text-slate-800 text-lg lg:text-2xl'>قدرت بی رقیب</span>
                                     </div>
                                     <h1 className='font-bold text-xl lg:text-4xl text-slate-800'>
-                                        <a href="">آیفون ۱۶ پرو مکس</a>
+                                        <a href="">S25 Ultra</a>
                                     </h1>
                                     <div>
-                                        <p className=' blockk text-slate-800 mt-5'>با تراشه A18، شیشه مایع و نوآوری مبتنی بر هوش مصنوعی</p>
+                                        <p className=' blockk text-slate-800 mt-5'>با دوربین 200 مگاپیکسلی، نمایشگر Super AMOLED و هوش مصنوعی نسل جدید</p>
                                     </div>
 
                                     <div className='mt-4'>
@@ -72,7 +72,7 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/iphone16Banner.png" className=' max-h-[545px] size-6/12' width={500} height={900} />
+                                <img src="/new/s25Banner.png" className=' max-h-[545px] size-5/12' width={500} height={900} />
                             </div>
 
 
@@ -81,16 +81,16 @@ export default function mainSlider() {
                     <SwiperSlide>
                         <div className='xl:w-[853px] relative '>
                             <div className='relative flex flex-col lg:flex-row-reverse items-center justify-center'>
-                                
+
                                 <div className='flex flex-col gap-4 max-w-[366px] p-5'>
                                     <div className='flex items-center gap-6 mb-4'>
-                                        <span className='text-slate-800 text-lg lg:text-2xl'>نسخه محدود</span>
+                                        <span className='text-slate-800 text-lg lg:text-2xl'>نسخه ویژه</span>
                                     </div>
                                     <h1 className='font-bold text-xl lg:text-4xl text-slate-800'>
-                                        <a href="">آیفون ۱۶ پرو مکس</a>
+                                        <a href="">هدفون بی سیم اکسلنت</a>
                                     </h1>
                                     <div>
-                                        <p className=' blockk text-slate-800 mt-5'>با تراشه A18، شیشه مایع و نوآوری مبتنی بر هوش مصنوعی</p>
+                                        <p className=' blockk text-slate-800 mt-5'>صدای فراگیر با فناوری حذف نویز فعال و طراحی ارگونومیک</p>
                                     </div>
 
                                     <div className='mt-4'>
@@ -98,12 +98,13 @@ export default function mainSlider() {
                                     </div>
 
                                 </div>
-                                <img src="/new/iphone16Banner.png" className=' max-h-[545px] size-6/12' width={500} height={900} />
+                                <img src="/new/headphoneBanner.png" className=' max-h-[545px] size-7/12' width={500} height={900} />
                             </div>
 
 
                         </div>
                     </SwiperSlide>
+
                 </Swiper>
             </>
         </div>

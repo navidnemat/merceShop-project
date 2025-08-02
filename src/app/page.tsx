@@ -34,8 +34,8 @@ export default async function Home({ searchParams }: IStoreProps) {
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="lg:w-1/2 flex flex-col items-start w-full px-5">
               <p className="lg:text-4xl w-full text-3xl z-10 font-bold leading-relaxed bg-gradient-to-l from-[#3c50e0] to-[#9e6eff] bg-clip-text text-transparent">جدیدترین تکنولوژی دنیا <br /> با بهترین قیمت و تضمین اصالت <br /> فروشگاهی که دیجیتال بودن رو معنی میکنه</p>
-              <Link href={'/mainStore'} className="inline mt-6 px-6 py-2.5 bg-[#3c50e0] hover:bg-[#4d5df5] transition-all text-white rounded-xl ease-out duration-200 hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer">
-                مشاهده محصولات
+              <Link href={'/mainStore'} className="inline mt-7 px-6 py-2.5 bg-[#3c50e0] hover:bg-[#4d5df5] transition-all text-white rounded-xl ease-out duration-200 hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer">
+                ورود به دنیای تکنولوژی
               </Link>
             </div>
             <div className="lg:w-1/2 w-full flex items-center justify-center lg:mt-0 mt-10">
@@ -50,7 +50,7 @@ export default async function Home({ searchParams }: IStoreProps) {
         <div className="max-w-[1676px] mx-auto w-full xl:px-4 px-4">
           <div className="flex flex-wrap xl:flex-nowrap gap-5">
             <div className="xl:w-2/3 w-full">
-              <div className="relative rounded-[10px] overflow-hidden h-full bg-white/60 backdrop-blur-md border border-white/40 shadow-lg">
+              <div className="relative rounded-[10px] overflow-hidden h-full bg-white/40 backdrop-blur-lg border border-white/40 shadow-lg">
                 <MainSlider />
               </div>
             </div>
