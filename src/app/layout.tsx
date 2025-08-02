@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 import { ShopingCartContextProvider } from "@/context/ShopingCartContext";
+import ProgressBar from "./components/progressBar";
 
 export const metadata: Metadata = {
   title: {
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="fa" dir="rtl">
       <body className="relative bg-gradient-to-br from-[#e4d0ff] via-[#d0f0ff] to-[#d0ffe5]">
         <ShopingCartContextProvider >
+          <ProgressBar />
           <NavBar />
           {children}
           <Footer />
