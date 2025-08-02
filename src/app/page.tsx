@@ -45,7 +45,7 @@ export default async function Home({ searchParams }: IStoreProps) {
         </div>
       </section>
 
-
+      {/* slider */}
       <section className="overflow-hidden pb-10 lg:pb-12 xl:pb-15 pt-10 ">
         <div className="max-w-[1676px] mx-auto w-full xl:px-4 px-4">
           <div className="flex flex-wrap xl:flex-nowrap gap-5">
@@ -292,20 +292,20 @@ export default async function Home({ searchParams }: IStoreProps) {
             <img src="/new/x15.webp" className="lg:absolute bottom-6 mx-auto left-4 lg:left-26 mt-10 ease-out duration-200 transition-all " width={374} height={450} />
           </div>
           <div className="grid gap-7 grid-cols-1 lg:grid-cols-2">
-            <div className="relative overflow-hidden rounded-xl bg-[#d2f7e2] py-10 xl:py-16 px-4 sm:px-7 xl:px-10 backdrop-blur-md border border-white/30 shadow-lg hover:[&_img]:scale-105">
+            <div className="relative overflow-hidden rounded-xl bg-[#a9ffce]/40 py-10 xl:py-16 px-4 sm:px-7 xl:px-10 backdrop-blur-md border border-white/30 shadow-lg hover:[&_img]:scale-105">
               <img src="/images/treadmill.webp" className="sm:absolute sm:top-1/2 sm:-translate-y-1/2 right-10 mx-auto sm:mx-0 sm:left-10 ease-out duration-200 transition-all" width={200} height={200} />
               <div className="mt-10 sm:mt-0 sm:text-left flex flex-col items-end">
                 <span className="block text-lg mb-1.5 text-slate-800">تردمیل موتوری تاشو</span>
-                <h2 className="font-bold text-2xl mb-2.5 text-slate-800">۴۰% تخفیف ثابت</h2>
-                <p className="max-w-[200px] xl:max-w-[285px] text-slate-800">تمرین در خانه</p>
+                <h2 className="font-bold text-2xl mb-3 text-slate-800">10% تخفیف ثابت</h2>
+                <p className="max-w-[200px] xl:max-w-[285px] text-slate-800">موتور پرقدرت با طراحی ارگونومیک، تجربه ای روان و حرفه ای از دویدن فراهم می کند</p>
                 <div className="flex flex-row-reverse">
-                  <a href="" className="text-white bg-teal-600 py-2 px-7.5 rounded-lg ease-out duration-200 mt-7 cursor-pointer border border-white/30 hover:shadow-[0_0_15px_#b1fdd2] transition-all hover:scale-105 shadow-md">
+                  <a href="" className="text-white bg-teal-600 py-2 px-7.5 rounded-lg ease-out duration-200 mt-7 cursor-pointer border border-white/30 hover:shadow-[0_0_15px_#89ff7e] transition-all hover:scale-105 shadow-md">
                     همین حالا بگیر
                   </a>
                 </div>
               </div>
             </div>
-            <div className="relative overflow-hidden rounded-xl bg-[#ffe4d4ea] py-10 xl:py-16 px-4 sm:px-7 xl:px-10 backdrop-blur-md border border-white/30 shadow-lg hover:[&_img]:scale-105">
+            <div className="relative overflow-hidden rounded-xl bg-[#ffdbc7ea] py-10 xl:py-16 px-4 sm:px-7 xl:px-10 backdrop-blur-md border border-white/30 shadow-lg hover:[&_img]:scale-105">
               <img src="/images/applewatchultra.webp" className="sm:absolute sm:top-1/2 sm:-translate-y-1/2 left-10 mx-auto sm:mx-0 sm:rigth-10 ease-out duration-200 transition-all" width={200} height={200} />
               <div className="mt-10 sm:mt-0 sm:text-right ">
                 <span className="block text-lg mb-1.5 text-slate-800">اپل واچ اولترا</span>
@@ -327,11 +327,11 @@ export default async function Home({ searchParams }: IStoreProps) {
         <section className="overflow-hidden py-20">
           <div className="max-w-[1676px] w-full mx-auto px-4 sm:px-6 xl:px-4">
             <div className="relative overflow-hidden rounded-lg bg-[#a6e1f8]/70 p-4 lg:p-10 flex flex-col md:flex-row items-center backdrop-blur-md border border-white/40 shadow-lg gap-10">
-              <div className="max-w-[422px] w-full">
-                <span className="block mb-2.5 text-[#3c50e0] text-xl">از دست ندهید!!</span>
-                <h2 className="block font-bold text-4xl text-slate-800">تجربه موسیقی خود را بهبود بخشید</h2>
+              <div className="max-w-[600px] w-full">
+                <span className="block mb-4.5 text-[#3c50e0] text-xl">فرصت داره تموم میشه !!</span>
+                <h2 className="block font-bold text-4xl text-slate-800 mb-4">"صدایی فراتر از انتظار، هدفون‌هایی که تجربه‌ی شنیداری شما را متحول می‌کنند"</h2>
                 <CountdownTimer targetDate="2025-08-08T23:59:59" />
-                <button className="mt-3 px-6 py-2 rounded-full bg-[#3c50e0] text-white backdrop-blur-md border border-white/30 shadow-md ease-out transition-all duration-200  hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer">آن را بررسی کنید!</button>
+                <button className="mt-3 px-6 py-2 rounded-full bg-[#3c50e0] text-white backdrop-blur-md border border-white/30 shadow-md ease-out transition-all duration-200  hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 cursor-pointer">جزئیات بیشتر</button>
               </div>
               <div className="flex w-full flex-row-reverse">
                 <img src="/images/countdown-bg.webp" className="hidden md:block absolute left-0 bottom-0 -scale-x-100 top-0" width={737} height={482} />
@@ -375,9 +375,9 @@ export default async function Home({ searchParams }: IStoreProps) {
 
             {/* محتوا */}
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 px-4 sm:px-7 xl:pe-12 xl:ps-14 py-12 relative z-10">
-              <div className="max-w-[491px] w-full">
+              <div className="max-w-[520px] w-full">
                 <h2 className="text-white font-bold text-3xl mb-3 leading-relaxed">
-                  آخرین روندها و پیشنهادات را از دست ندهید
+                  اولین نفری باشید که از تخفیف ها و پیشنهاد های ویژه با خبر میشه
                 </h2>
                 <p className="text-white/80 text-sm">
                   برای دریافت اخبار مربوط به جدیدترین پیشنهادات و کدهای تخفیف ثبت نام کنید
