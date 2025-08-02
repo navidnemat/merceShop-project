@@ -42,7 +42,7 @@ export default function AddToCart({ id, addToCartOnOff }: IAddToCartProps) {
                     <button onClick={() => handleAddToCart(parseInt(id))} className="inline-flex text-white rounded-full bg-[#3c50e0] cursor-pointer ease-out duration-200 hover:opacity-85 py-3 px-7 active:scale-90">
                         افزودن به سبد خرید
                     </button>
-                    <button onClick={() => { setIsClick(!isClick) }} className={`flex items-center justify-center w-12 h-12 ease-out duration-200 rounded-full border-1 border-slate-200 text-slate-800 hover:!text-white ${isClick == false && 'hover:!bg-slate-800'} hover:border-transparent ${isClick ? '!bg-indigo-[#3c50e0] border-transparent text-white' : 'bg-white'} active:scale-90`}>
+                    <button onClick={() => { setIsClick(!isClick) }} className={`flex items-center justify-center w-12 h-12 ease-out duration-200 rounded-full border-1 border-slate-200 text-slate-800 hover:!text-white ${isClick == false && 'hover:!bg-slate-800'} hover:border-transparent ${isClick ? '!bg-[#3c50e0] border-transparent text-white' : 'bg-white'} active:scale-90`}>
                         <IoMdHeartEmpty className="text-xl" />
                     </button>
                 </div>
