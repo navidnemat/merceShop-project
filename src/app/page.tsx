@@ -299,8 +299,8 @@ export default async function Home({ searchParams }: IStoreProps) {
             <img src="/new/x15.webp" className="lg:absolute bottom-6 mx-auto left-4 lg:left-26 mt-10 ease-out duration-200 transition-all " width={374} height={450} />
           </div>
           <div className="grid gap-3 grid-cols-1 lg:grid-cols-2">
-            <div className="relative overflow-hidden rounded-xl bg-[#a9ffce]/40 py-10 xl:py-10 px-4 sm:px-7 xl:px-10 backdrop-blur-md border border-white/30 shadow-lg hover:[&_img]:scale-105">
-              <img src="/images/treadmill.webp" className="sm:absolute sm:top-1/2 sm:-translate-y-1/2 right-10 mx-auto sm:mx-0 ease-out duration-200 transition-all" width={200} height={200} />
+            <div className="relative overflow-hidden rounded-xl bg-[#d2ffe6] py-10 xl:py-10 px-4 sm:px-7 xl:px-10 backdrop-blur-md border border-white/30 shadow-lg hover:[&_img]:scale-105">
+              <img src="/images/treadmill.webp" className="sm:absolute sm:top-1/2 sm:-translate-y-1/2 left-10 mx-auto sm:mx-0 ease-out duration-200 transition-all" width={200} height={200} />
               <div className="mt-10 sm:mt-0 flex flex-col items-start">
                 <span className="block text-lg mb-1.5 text-slate-800">تردمیل موتوری تاشو</span>
                 <h2 className="font-bold text-2xl mb-2 text-slate-800">10% تخفیف ثابت</h2>
