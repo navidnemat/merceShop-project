@@ -12,7 +12,7 @@ export default function FeedbackSlider() {
         <>
             <Swiper
                 slidesPerView={3}
-                spaceBetween={30}
+                spaceBetween={12}
                 pagination={{
                     clickable: true,
                 }}
@@ -25,15 +25,15 @@ export default function FeedbackSlider() {
                     },
                     640: {
                         slidesPerView: 1,
-                        spaceBetween: 15,
+                        spaceBetween: 10,
                     },
                     768: {
                         slidesPerView: 2,
-                        spaceBetween: 15,
+                        spaceBetween: 10,
                     },
                     1024: {
                         slidesPerView: 3,
-                        spaceBetween: 30,
+                        spaceBetween: 12,
                     },
                 }}
             >

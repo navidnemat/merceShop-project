@@ -29,9 +29,9 @@ export default async function MainStore({ searchParams }: IStoreProps) {
                     </div>
                 </div>
             </div>
-            <section className="overflow-hidden relative pt-5">
+            <section className="overflow-hidden relative pt-5 pb-5">
                 <div className="w-full px-4 mx-auto sm:px-6 xl:px-4 max-w-[1676px]">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-7.5 gap-y-9">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-4">
                         {data.map((item : IProductItemProps) => (
                             <Link key={item.id} href={`/mainStore/${item.id}`}>
                                 <ProductItem {...item} />

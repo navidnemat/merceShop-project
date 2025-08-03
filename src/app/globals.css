@@ -45,18 +45,24 @@ body {
 }
 
 @keyframes float2 {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-80px);
   }
 }
 
 @keyframes drift {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0);
   }
+
   50% {
     transform: translate(25px, -25px);
   }
@@ -79,14 +85,25 @@ body {
 }
 
 @keyframes floatSlow {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-13px);
-    }
+
+  0%,
+  100% {
+    transform: translateY(0);
   }
 
-  .float-slow {
-    animation: floatSlow 4s ease-in-out infinite;
+  50% {
+    transform: translateY(-13px);
   }
+}
+
+.float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}

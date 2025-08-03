@@ -30,15 +30,15 @@ export default function mainSlider() {
                         <div className='xl:w-[853px] relative '>
                             <div className='relative flex flex-col-reverse lg:flex-row-reverse items-center justify-center md:pt-0 pt-5'>
 
-                                <div className='flex flex-col gap-4 max-w-[366px] p-5 mb-5 md:mb-0'>
-                                    <div className='flex items-center gap-6 mb-4'>
-                                        <span className='text-slate-800 text-lg lg:text-2xl'>تعادل هوشمند</span>
+                                <div className='flex flex-col max-w-[366px] p-5 pt-0 mb-3 md:mb-0'>
+                                    <div className='flex items-center gap-6 mb-1 lg:mb-3'>
+                                        <span className='text-slate-800 lg:text-lg'>تعادل هوشمند</span>
                                     </div>
-                                    <h1 className='font-bold text-xl lg:text-4xl text-slate-800'>
+                                    <h1 className='font-bold text-2xl lg:text-5xl text-slate-800'>
                                         <a href="">آیفون ۱۶</a>
                                     </h1>
                                     <div>
-                                        <p className=' blockk text-slate-800 mt-5'>طراحی کلاسیک اپل، قدرت A17، دوربین دوگانه و هماهنگ با ios 18</p>
+                                        <p className=' blockk text-slate-800 mt-2 lg:mt-5'>طراحی کلاسیک اپل، قدرت A17، دوربین دوگانه و هماهنگ با ios 18</p>
                                     </div>
 
                                     <div className='mt-4'>
@@ -54,18 +54,18 @@ export default function mainSlider() {
                         <div className='xl:w-[853px] relative '>
                             <div className='relative flex flex-col-reverse lg:flex-row-reverse items-center justify-center pt-5'>
 
-                                <div className='flex flex-col gap-4 max-w-[366px] mb-5 md:mb-0 p-5'>
-                                    <div className='flex items-center gap-6 mb-4'>
-                                        <span className='text-slate-800 text-lg lg:text-2xl'>قدرت بی رقیب</span>
+                                <div className='flex flex-col max-w-[366px] mb-6 md:mb-0 p-5 pt-0'>
+                                    <div className='flex items-center gap-6 mb-2 lg:mb-3'>
+                                        <span className='text-slate-800 lg:text-lg'>قدرت بی رقیب</span>
                                     </div>
-                                    <h1 className='font-bold text-xl lg:text-4xl text-slate-800'>
+                                    <h1 className='font-bold text-2xl lg:text-5xl text-slate-800'>
                                         <a href="">S25 Ultra</a>
                                     </h1>
                                     <div>
-                                        <p className=' blockk text-slate-800 mt-5'>با دوربین 200 مگاپیکسلی، نمایشگر Super AMOLED و هوش مصنوعی نسل جدید</p>
+                                        <p className=' blockk text-slate-800 mt-2 lg:mt-5'>با دوربین 200 مگاپیکسلی، نمایشگر Super AMOLED و هوش مصنوعی نسل جدید</p>
                                     </div>
 
-                                    <div className='mt-4'>
+                                    <div className='mt-5'>
                                         <span className='text-white rounded-full text-sm bg-[#3c50e0] px-4 py-2 ease-out duration-200 hover:bg-indigo-800 cursor-pointer'>همین حالا خرید کنید</span>
                                     </div>
 
@@ -80,15 +80,15 @@ export default function mainSlider() {
                         <div className='xl:w-[853px] relative '>
                             <div className='relative flex flex-col-reverse lg:flex-row-reverse items-center justify-center pt-5'>
 
-                                <div className='flex flex-col gap-4 max-w-[366px] mb-5 md:mb-0 p-5'>
-                                    <div className='flex items-center gap-6 mb-4'>
+                                <div className='flex flex-col max-w-[366px] mb-2 md:mb-0 p-5'>
+                                    <div className='flex items-center gap-6 mb-1 lg:mb-4'>
                                         <span className='text-slate-800 text-lg lg:text-2xl'>نسخه ویژه</span>
                                     </div>
-                                    <h1 className='font-bold text-xl lg:text-4xl text-slate-800'>
+                                    <h1 className='font-bold text-2xl lg:text-5xl text-slate-800'>
                                         <a href="">هدفون بی سیم اکسلنت</a>
                                     </h1>
                                     <div>
-                                        <p className=' blockk text-slate-800 mt-5'>صدای فراگیر با فناوری حذف نویز فعال و طراحی ارگونومیک</p>
+                                        <p className='block text-slate-800 mt-3 lg:mt-5'>صدای فراگیر با فناوری حذف نویز فعال و طراحی ارگونومیک</p>
                                     </div>
 
                                     <div className='mt-4'>

@@ -12,7 +12,7 @@ export default function BackToTopButton() {
     };
 
     return (
-        <div className="container mx-auto my-10">
+        <div className="container mx-auto">
             <div className="flex items-center justify-center">
                 <button
                 onClick={scrollToTop}

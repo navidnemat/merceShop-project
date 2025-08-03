@@ -31,7 +31,7 @@ export default function NewArrivalsSlider() {
         <div className='overflow-visible'>
             <Swiper
                 slidesPerView={4}
-                spaceBetween={30}
+                spaceBetween={15}
                 style={{overflow:'visible !important'}}
                 pagination={{
                     clickable: true,
@@ -53,7 +53,7 @@ export default function NewArrivalsSlider() {
                     },
                     1024: {
                         slidesPerView: 4,
-                        spaceBetween: 30,
+                        spaceBetween: 15,
                     },
                 }}
             >
