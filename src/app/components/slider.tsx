@@ -66,7 +66,7 @@ export default function mainSlider() {
                                     </div>
 
                                     <div className='mt-5'>
-                                        <span className='text-white rounded-full text-sm bg-[#3c50e0] px-4 py-2 ease-out duration-200 hover:bg-indigo-800 cursor-pointer'>همین حالا خرید کنید</span>
+                                        <button className='text-white rounded-full text-sm bg-[#3c50e0] px-4 py-2 ease-out duration-200 cursor-pointer backdrop-blur-md border border-white/30 shadow-md hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 transition-all '>همین حالا خرید کنید</button>
                                     </div>
 
                                 </div>
@@ -92,7 +92,7 @@ export default function mainSlider() {
                                     </div>
 
                                     <div className='mt-4'>
-                                        <span className='text-white rounded-full text-sm bg-[#3c50e0] px-4 py-2 ease-out duration-200 hover:bg-indigo-800 cursor-pointer'>همین حالا خرید کنید</span>
+                                        <button className='text-white rounded-full text-sm bg-[#3c50e0] px-4 py-2 ease-out duration-200 cursor-pointer backdrop-blur-md border border-white/30 shadow-md hover:shadow-[0_0_10px_#3c50e0] hover:scale-105 transition-all '>همین حالا خرید کنید</button>
                                     </div>
 
                                 </div>
