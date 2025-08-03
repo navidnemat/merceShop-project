@@ -59,7 +59,7 @@ export default async function Home({ searchParams }: IStoreProps) {
                 <MainSlider />
               </div>
             </div>
-            <div className="xl:max-w-[469px] w-full flex flex-col justify-between sm:flex-row xl:flex-col">
+            <div className="xl:max-w-[469px] w-full flex flex-col justify-between sm:flex-row xl:flex-col gap-3">
 
               <div className="relative w-full cursor-pointer rounded-[10px] bg-gradient-to-br from-[#dff4ff]/70 via-[#eaf1ff]/60 to-[#ffffff]/50 p-4 sm:p-7 backdrop-blur-md border border-white/40 shadow-lg transition-all hover:scale-[1.015] hover:shadow-2xl duration-300">
                 <div className="flex items-center justify-between gap-4">
@@ -300,8 +300,8 @@ export default async function Home({ searchParams }: IStoreProps) {
           </div>
           <div className="grid gap-3 grid-cols-1 lg:grid-cols-2">
             <div className="relative overflow-hidden rounded-xl bg-[#a9ffce]/40 py-10 xl:py-10 px-4 sm:px-7 xl:px-10 backdrop-blur-md border border-white/30 shadow-lg hover:[&_img]:scale-105">
-              <img src="/images/treadmill.webp" className="sm:absolute sm:top-1/2 sm:-translate-y-1/2 right-10 mx-auto sm:mx-0 sm:left-10 ease-out duration-200 transition-all" width={200} height={200} />
-              <div className="mt-10 sm:mt-0 sm:text-left flex flex-col items-end">
+              <img src="/images/treadmill.webp" className="sm:absolute sm:top-1/2 sm:-translate-y-1/2 right-10 mx-auto sm:mx-0 ease-out duration-200 transition-all" width={200} height={200} />
+              <div className="mt-10 sm:mt-0 flex flex-col items-start">
                 <span className="block text-lg mb-1.5 text-slate-800">تردمیل موتوری تاشو</span>
                 <h2 className="font-bold text-2xl mb-2 text-slate-800">10% تخفیف ثابت</h2>
                 <p className="max-w-[200px] xl:max-w-[285px] text-slate-800">موتور پرقدرت با طراحی ارگونومیک، تجربه ای روان و حرفه ای از دویدن فراهم می کند</p>

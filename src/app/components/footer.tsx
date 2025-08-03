@@ -106,7 +106,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="w-full py-4 border-t border-slate-200">
-                    <p className="text-neutral-600">توسعه داده شده توسط <span className="text-[#3c50e0] font-bold text-shadow-xs">نوید نعمتی</span></p>
+                    <p className="text-neutral-600 text-center md:text-right">توسعه داده شده توسط <span className="text-[#3c50e0] font-bold text-shadow-xs">نوید نعمتی</span></p>
                 </div>
             </div>
         </footer>

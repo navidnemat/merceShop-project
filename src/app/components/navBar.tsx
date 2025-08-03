@@ -72,7 +72,7 @@ export default function NavBar() {
                     <Link className="flex ease-out duration-100 active:text-[#3c50e0] active:bg-[#3c50e0]/7 p-2 rounded-md" onClick={() => setIsOpen(false)} href={'/'}>تماس با ما</Link>
                     <Link className="flex ease-out duration-100 active:text-[#3c50e0] active:bg-[#3c50e0]/7 p-2 rounded-md" onClick={() => setIsOpen(false)} href={'/'}>وبلاگ</Link>
                 </div>
-                <div className='py-4 border-t space-y-1 border-slate-200 flex flex-col gap-2'>
+                <div className='py-4 space-y-1 flex flex-col gap-2'>
                     <a className='flex items-center gap-2 px-2 py-1 rounded-md ease-out duration-100 active:text-indigo-700 active:bg-indigo-700/7 cursor-pointer'>
                         <span className='inline-flex items-center justify-center w-8 h-8'>
                             <IoPersonOutline className='text-lg' />
