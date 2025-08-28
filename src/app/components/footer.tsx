@@ -84,7 +84,7 @@ export default function Footer() {
                         <p className="mb-4 text-gray-600">با اولین خرید در اپ، <span className="text-[#3c50e0] font-semibold">150 هزار</span> تومان هدیه بگیر!</p>
                         <ul className="flex flex-col gap-4">
                             <li>
-                                <a className="inline-flex items-center gap-3 py-[9px] ps-4 pe-7.5 text-white rounded-xl bg-slate-800 ease-out duration-200 hover:opacity-90 cursor-pointer">
+                                <a className="inline-flex items-center gap-3 py-[9px] ps-4 pe-7.5 text-white rounded-xl bg-slate-800 ease-out duration-200 hover:opacity-95 hover:scale-110 hover:shadow-sm shadow-slate-800 cursor-pointer">
                                     <FaApple className="text-3xl"/>
                                     <div>
                                         <span className="block text-xs">دانلود از</span>
@@ -93,7 +93,7 @@ export default function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a className="inline-flex items-center gap-3 py-[9px] ps-4 pe-8.5 text-white rounded-xl bg-[#3c50e0] ease-out duration-200 hover:opacity-90 cursor-pointer">
+                                <a className="inline-flex items-center gap-3 py-[9px] ps-4 pe-8.5 text-white rounded-xl bg-[#3c50e0] ease-out duration-200 hover:opacity-95 hover:scale-110 hover:shadow-sm shadow-[#3c50e0] cursor-pointer">
                                     <BsGooglePlay className="text-3xl"/>
                                     <div>
                                         <span className="block text-xs">دانلود از</span>

@@ -5,7 +5,7 @@ import { FiMenu } from "react-icons/fi";
 import { BiBasket } from "react-icons/bi";
 import { IoCloseSharp } from "react-icons/io5";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useShopingCartContext } from "@/context/ShopingCartContext";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoMdHeartEmpty } from "react-icons/io";
@@ -14,12 +14,21 @@ export default function NavBar() {
 
     const [isOpen, setIsOpen] = useState(false)
     const { cartTotalQty } = useShopingCartContext()
+
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 10);
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <div className="sticky top-4 z-999">
-            <div className="bg-white/70 backdrop-blur-xl border border-white/40 shadow-lg lg:m-4 m-3 rounded-full">
+        <div className={`sticky transition-all duration-500 ${scrolled ? 'top-0' : 'top-4'} z-999`}>
+            <div className={`bg-[#F7F2FD] border border-white/40 shadow-lg transition-all duration-500 ${scrolled ? '' : 'lg:m-4 m-3 rounded-full'}`}>
                 <div className="">
                     <div className="container flex grow w-full mx-auto max-w-[1676px] xl:px-5 px-4 ">
-                        <div className="w-full flex flex-col lg:py-3 py-2 ">
+                        <div className={`w-full flex flex-col transition-all duration-500 ${scrolled ? 'lg:py-1.5 py-1.5' : 'lg:py-3 py-2'}  `}>
                             <div className="grid items-center grid-cols-2 lg:grid-cols-[1fr_2fr_1fr] justify-between gap-4">
                                 <button onClick={() => setIsOpen(!isOpen)} className="block lg:hidden cursor-pointer relative text-gray-600">
                                     <FiMenu size={24} />

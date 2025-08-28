@@ -9,7 +9,7 @@
 @font-face {
   font-family: vazir;
   src: url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.eot');
-  src: url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.eot?#iefix') format('FontName-opentype'),
+  src: url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
     url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.woff') format('woff'),
     url('../font/vazir-font-v18.0.0/Farsi-Digits/Vazir-Light-FD.ttf') format('truetype');
   font-weight: normal;
