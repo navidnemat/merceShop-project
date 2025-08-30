@@ -25,7 +25,7 @@ export default function NavBar() {
 
     return (
         <div className={`sticky transition-all duration-500 ${scrolled ? 'top-0' : 'top-4'} z-999`}>
-            <div className={`bg-[#F7F2FD] border border-white/40 shadow-lg transition-all duration-500 ${scrolled ? '' : 'lg:m-4 m-3 rounded-full'}`}>
+            <div className={`bg-[#f3f2fd] border border-white/40 shadow-lg transition-all duration-500 ${scrolled ? '' : 'lg:m-4 m-3 rounded-full'}`}>
                 <div className="">
                     <div className="container flex grow w-full mx-auto max-w-[1676px] xl:px-5 px-4 ">
                         <div className={`w-full flex flex-col transition-all duration-500 ${scrolled ? 'lg:py-1.5 py-1.5' : 'lg:py-3 py-2'}  `}>
